@@ -1,0 +1,6 @@
+web:
+  image: 288612536250.dkr.ecr.us-west-2.amazonaws.com/ecs-test
+  ports:
+    - "80"
+  environment:
+    PORT: 80
